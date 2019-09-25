@@ -1,0 +1,17 @@
+{
+    "name": "cricky/laravel-config",
+    "description": "Config loader for laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "illuminate/database": "^5.5"
+    },
+	"autoload": {
+		"psr-4": {
+            "Cricky\\": "src/"
+        }
+	}
+}
